@@ -1,0 +1,35 @@
+.attraction {
+  background-color: var(--main-bg-color);
+  max-width: 450px;
+  width: 100%;
+  padding: 20px 20px;
+  border-radius: 25px;
+  margin: 0 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.attraction img {
+  display: block;
+  border-radius: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.attraction h3 {
+  color: var(--red-orange-color);
+  font-family: 'Mexcellent rg';
+  font-size: 30px;
+}
+
+.attraction p {
+  color: #f4ddb4;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.attraction a {
+  font-size: 20px;
+}

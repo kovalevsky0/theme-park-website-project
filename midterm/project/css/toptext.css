@@ -1,0 +1,30 @@
+.toptext {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    z-index: 3;
+}
+
+.toptext div:nth-child(1) {
+    width: calc(50% - 35px);
+    height: 2px;
+    background: #4e97b7;
+}
+
+.toptext div:nth-child(3) {
+    width: calc(50% - 35px);
+    height: 2px;
+    background: #4e97b7;
+}
+
+.toptext div:nth-child(2) {
+    width: 30px;
+    height: 30px;
+    background: width: 500px;
+    background: #4e97b7;
+    margin: 0 5px;
+    border-radius: 50%;
+}

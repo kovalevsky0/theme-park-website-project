@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Mexcellent 3d';
+  src: url('../assets/fonts/mexcellent/mexcellent 3d.otf') format('opentype');
+  /* Add additional font formats as needed for cross-browser compatibility */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mexcellent rg';
+  src: url('../assets/fonts/mexcellent/mexcellent rg.otf') format('opentype');
+  /* Add additional font formats as needed for cross-browser compatibility */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'RocketScript';
+  src: url('../assets/fonts/rocket-script/RocketScript.ttf') format('truetype');
+  /* Add additional font formats as needed for cross-browser compatibility */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geo';
+  src: url('../assets/fonts/geo/Geo-Regular.ttf') format('truetype');
+  /* Add additional font formats as needed for cross-browser compatibility */
+  font-weight: normal;
+  font-style: normal;
+}

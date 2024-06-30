@@ -1,0 +1,80 @@
+@import "variables.css";
+@import "fonts.css";
+@import "container.css";
+@import "logo.css";
+@import "highlight.css";
+@import "topmenu.css";
+@import "star.css";
+@import "toptext.css";
+@import "tickets-section.css";
+@import "rocket-trail.css";
+@import "ticket.css";
+@import "about-section.css";
+@import "attractions-section.css";
+@import "attraction.css";
+@import "text-center.css";
+@import "food-section.css";
+@import "food-block.css";
+
+body {
+    font-family: 'Geo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--main-bg-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--red-orange-color);
+  font-family: 'Mexcellent rg';
+  text-transform: uppercase;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+main {
+  position: relative;
+  z-index: 3;
+}
+
+header {
+  margin-top: 30px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.button {
+    border: none;
+    outline: none;
+    color: var(--yellow-color);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-family: 'Mexcellent rg';
+    letter-spacing: 2px;
+    background: var(--red-orange-color);
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+    width: fit-content;
+
+    box-shadow: 3px 2px 0px rgba(25,51,66,1);
+}
+
+.button:hover {
+  box-shadow: none;
+}

@@ -1,0 +1,15 @@
+.food-block {
+  width: 50%;
+  background: #f4ddb4;
+  border-radius: 25px;
+  padding: 20px 20px;
+  display: flex;
+}
+
+.food-block img {
+  display: block;
+  border-radius: 25px;
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 20px;
+}

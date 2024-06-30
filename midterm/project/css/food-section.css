@@ -1,0 +1,28 @@
+.food-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.food-section h2 {
+  margin-bottom: 70px;
+}
+
+.food-section__left-aside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto 60px auto;
+}
+
+.food-section__right-aside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-bottom: 60px;
+    max-width: 1900px;
+    width: 100%;
+    margin: 0 auto 60px auto;
+}

@@ -1,0 +1,15 @@
+.logo {
+    display: block;
+    text-decoration: none;
+    color: var(--red-orange-color);
+    font-style: italic;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'RocketScript';
+}
+
+@media (max-width: 1400px) {
+  .logo {
+    font-size: 35px;
+  }
+}

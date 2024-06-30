@@ -1,0 +1,42 @@
+.topmenu {
+  z-index: 2;
+}
+
+.topmenu ul {
+    display: flex;
+    /* justify-content: center; */
+    list-style-type: none;
+    /* padding: 0; */
+    align-items: center;
+}
+
+.topmenu ul li {
+    margin-right: 20px;
+}
+
+.topmenu ul li:last-child {
+    margin-right: 0px;
+}
+
+.topmenu ul li a {
+    color: var(--yellow-color);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: 'Mexcellent rg';
+    letter-spacing: 2px;
+}
+
+.topmenu ul li a:hover {
+  background-color: var(--red-orange-color);
+    box-shadow: 3px 2px 0px rgba(25,51,66,1);
+}
+
+.topmenu__active {
+  background-color: var(--red-orange-color);
+    box-shadow: 3px 2px 0px rgba(25,51,66,1);
+}
+

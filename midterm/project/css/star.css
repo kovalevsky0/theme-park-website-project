@@ -1,0 +1,6 @@
+.star {
+  position: fixed;
+  background-color: var(--yellow-color); /* White color for stars */
+  border-radius: 50%; /* Make stars circular */
+  opacity: 0.5;
+}

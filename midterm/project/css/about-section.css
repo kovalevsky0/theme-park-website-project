@@ -1,0 +1,36 @@
+.about-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.about-section h2 {
+  margin-bottom: 70px;
+}
+
+.about-section__content {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto 70px auto;
+  display: flex;
+}
+
+.about-section__content p {
+  font-size: 26px;
+  color: var(--yellow-color);
+}
+
+.about-section__content p:first-child {
+  margin-top: 0;
+}
+
+.about-section__content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-section__content > div {
+  margin-right: 110px;
+}
+
+.about-section__content img {
+  border-radius: 25px;
+}
