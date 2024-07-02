@@ -1,16 +1,16 @@
 .about-section {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .about-section h2 {
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
 .about-section__content {
   max-width: 1500px;
   width: 100%;
-  margin: 0 auto 70px auto;
+  margin: 0 auto 80px auto;
   display: flex;
 }
 
@@ -27,7 +27,7 @@
   margin-bottom: 0;
 }
 
-.about-section__content > div {
+.about-section__content > div:first-child {
   margin-right: 110px;
 }
 
