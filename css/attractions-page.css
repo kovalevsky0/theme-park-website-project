@@ -1,3 +1,9 @@
+.attraction-page {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
 .attraction-info {
     flex-shrink: 1;
     display: flex;
