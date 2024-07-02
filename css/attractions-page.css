@@ -50,13 +50,16 @@
 
 .attraction-info-requirement {
     font-size: 35px;
-    color: var(--orange-color);
 }
 
 .attraction-info ul {
     font-size: 30px;
-    color: var(--orange-color);  
 }
+
+.attraction-info-requirement, .attraction-info ul {
+    color: var(--orange-color);
+}
+
 
 /* Responsive styles */
 @media (max-width: 1000px) {
