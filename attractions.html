@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attrctions</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <main class="attractions-page">
+        <section class="attraction-info">
+            <h2 class="text-center">To The Moon</h2>
+            <article>
+                <div>
+                    <p>Experience the thrill of space travel on the "To The Moon!" ride. Blast off into space with stunning visuals and exciting maneuvers, making it an unforgettable adventure for all ages at Nova Park.</p>
+                    <h2 class="attraction-info-requirement">Requirements</h2>
+                    <ul>
+                        <li><strong>Attraction Type: </strong>Ride Attraction</li>
+                        <li><strong>Age Requirement: </strong>All Ages</li>
+                        <li><strong>Guest Experience: </strong>Approx. 5 minutes</li>
+                    </ul>
+                    <a href="tickets.html" class="button">
+                        Buy Tickets
+                    </a>
+                </div>
+                <img src="./assets/images/attr_to_the_moon.png" alt="nova park 19555">
+            </article>
+
+        </section>
+        <section class="attraction-info">
+            <h2 class="text-center">Flower of Mars</h2>
+            <article>
+                <img src="./assets/images/attr_flower_of_mars.png" alt="nova park 19555">
+                <div>
+                    <p>Prepare for an extraordinary ride on the "Flower of Mars" where the thrill of a roller coaster meets the beauty of a blooming celestial flower. Experience twists, turns, and exhilarating drops amidst the stunning visual spectacle of this unique attraction at Nova Park.</p>
+                    <h2 class="attraction-info-requirement">Requirements</h2>
+                    <ul>
+                        <li><strong>Attraction Type: </strong>Ride Attraction</li>
+                        <li><strong>Age Requirement: </strong>All Ages</li>
+                        <li><strong>Guest Experience: </strong>Approx. 5 minutes</li>
+                    </ul>
+                    <a href="tickets.html" class="button">
+                        Buy Tickets
+                    </a>
+                </div>
+            </article>
+        </section>
+        <section class="attraction-info">
+            <h2 class="text-center">Jupiter Express</h2>
+            <article>
+                <div>
+                    <p>Hop aboard the "Jupiter Express," a magnetic train-themed coaster that combines futuristic technology with high-speed thrills. Zoom through twists, loops, and magnetic fields, experiencing the exhilaration of space travel at Nova Park.</p>
+                    <h2 class="attraction-info-requirement">Requirements</h2>
+                    <ul>
+                        <li><strong>Attraction Type: </strong>Ride Attraction</li>
+                        <li><strong>Age Requirement: </strong>All Ages</li>
+                        <li><strong>Guest Experience: </strong>Approx. 5 minutes</li>
+                    </ul>
+                    <a href="tickets.html" class="button">
+                        Buy Tickets
+                    </a>
+                </div>
+                <img src="./assets/images/attr_jupiter_express.png" alt="nova park 19555">
+            </article>
+        </section>
+        <section class="attraction-info">
+            <h2 class="text-center">Cosmo Racers</h2>
+            <article>
+                <img src="./assets/images/attr_cosmo_racers.png" alt="nova park 19555">
+                <div>
+                    <p>Hop aboard the "Jupiter Express," a magnetic train-themed coaster that combines futuristic technology with high-speed thrills. Zoom through twists, loops, and magnetic fields, experiencing the exhilaration of space travel at Nova Park.</p>
+                    <h2 class="attraction-info-requirement">Requirements</h2>
+                    <ul>
+                        <li><strong>Attraction Type: </strong>Ride Attraction</li>
+                        <li><strong>Age Requirement: </strong>All Ages</li>
+                        <li><strong>Guest Experience: </strong>Approx. 5 minutes</li>
+                    </ul>
+                    <a href="tickets.html" class="button">
+                        Buy Tickets
+                    </a>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script>
+        const numStars = 1000;
+        const maxSize = 5;
+    
+        for (let i = 0; i < numStars; i++) {
+          const star = document.createElement('div');
+          star.classList.add('star');
+    
+          const size = Math.random() * maxSize;
+          const x = Math.random() * window.innerWidth;
+          const y = Math.random() * (window.innerHeight + 1000);
+    
+          star.style.width = size + 'px';
+          star.style.height = size + 'px';
+          star.style.left = x + 'px';
+          star.style.top = y + 'px';
+    
+          document.body.appendChild(star);
+        }
+      </script>
+</body>
+</html>
