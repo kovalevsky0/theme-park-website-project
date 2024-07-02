@@ -3,9 +3,9 @@
 @import "container.css";
 @import "logo.css";
 @import "highlight.css";
+@import "topbar.css";
 @import "topmenu.css";
 @import "star.css";
-@import "toptext.css";
 @import "tickets-section.css";
 @import "rocket-trail.css";
 @import "ticket.css";
@@ -48,13 +48,6 @@ main {
 header {
   margin-top: 30px;
 }
-
-.topbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 
 .button {
     border: none;

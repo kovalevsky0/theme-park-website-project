@@ -13,8 +13,11 @@
     padding-top: 140px;
 }
 
-.highlight > div:last-child > img {
-      margin-top: 23px;
+.highlight__rocket {
+  margin-top: 23px;
+}
+
+.highlight__rocket img {
   width: 190px 
 }
 
@@ -55,7 +58,11 @@
     margin-top: -17px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1360px) {
+  .highlight {
+    flex-direction: column;
+  }
+
   .highlight__line h1 {
     font-size: 50px;
   }
@@ -63,6 +70,18 @@
   .highlight__line {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 42%;
+    width: 100%;
+    height: auto;
   } 
+
+  .highlight > div:last-child {
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 80px;
+  }
+
+  .highlight__description {
+    margin: 0 0 0 8%;
+  }
 }

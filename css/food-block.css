@@ -27,5 +27,24 @@
 }
 
 .food-block p {
-  font-size: 20px;
+  font-size: 23px;
+}
+
+@media (max-width: 1360px) {
+  .food-block {
+    width: 100%;
+    margin: 0 25px 45px 25px;
+  }
+
+  .food-block img {
+    max-width: 410px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 960px) {
+  .food-block img {
+    max-width: initial;
+    width: 50%;
+  }
 }

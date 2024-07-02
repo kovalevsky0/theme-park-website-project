@@ -17,8 +17,6 @@
     background: var(--yellow-color);
     left: calc(50% - 20px);
     top: -20px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
 }
 
 .rocket-trail div:nth-child(2) {

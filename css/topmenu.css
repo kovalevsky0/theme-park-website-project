@@ -1,5 +1,7 @@
 .topmenu {
   z-index: 2;
+  display: flex;
+  align-items: center;
 }
 
 .topmenu ul {
@@ -40,3 +42,12 @@
     box-shadow: 3px 2px 0px rgba(25,51,66,1);
 }
 
+.topmenu__cart {
+  margin-top: 2px;
+  width: 23px;
+  margin-left: 25px;
+}
+
+.topmenu__cart img {
+  width: 100%;
+}
