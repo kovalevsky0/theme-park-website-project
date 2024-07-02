@@ -12,7 +12,6 @@
     background-image: url('../assets/images/box.png');
 }
 
-
 .attraction-info article {
     display: flex;
     flex-direction: row;
@@ -37,6 +36,7 @@
 .attraction-info:nth-child(even) p {
     color: var(--yellow-color);
 }
+
 .attraction-info img {
     border-radius: 20px;
     aspect-ratio: 1/1;
@@ -50,4 +50,27 @@
 .attraction-info ul {
     font-size: 30px;
     color: var(--orange-color);  
+}
+
+/* Responsive styles */
+@media (max-width: 1000px) {
+    .attraction-info {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .attraction-info article {
+        flex-direction: column;
+    }
+
+    .attraction-info p,
+    .attraction-info-requirement,
+    .attraction-info ul {
+        font-size: 20px;
+    }
+
+    .attraction-info img {
+        width: 50%;
+        align-self: center;
+    }
 }
