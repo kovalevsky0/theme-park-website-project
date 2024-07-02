@@ -1,0 +1,36 @@
+.footer-menu {
+  position: relative;
+  z-index: 3;
+}
+
+.footer-menu ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.footer-menu ul li {
+  margin-right: 20px;
+}
+
+.footer-menu ul li:last-child {
+  margin-right: 0px;
+}
+
+.footer-menu ul li a {
+    color: #0f2233;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 10px;
+    font-family: 'Mexcellent rg';
+    letter-spacing: 2px;
+}
+
+.footer-menu ul li a.footer-menu__active {
+  background-color: var(--red-orange-color);
+  box-shadow: 3px 2px 0px rgba(25, 51, 66, 1);
+  color: #f4ddb4;
+}
