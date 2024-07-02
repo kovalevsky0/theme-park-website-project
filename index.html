@@ -18,7 +18,8 @@
               <ul>
                   <li><a class="topmenu__active" href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="tickets.html">Attractions</a></li>
+                  <li><a href="attractions.html">Attractions</a></li>
+                  <li><a href="tickets.html">Tickets</a></li>
                   <li><a href="food.html">Food & Drink</a></li>
               </ul>
           </nav>
@@ -217,32 +218,29 @@
               </ul>
             </nav>
           </div>
-          <div>
-            
-          </div>
         </div>
       </div>
     </footer>
-  <script>
-    const numStars = 1000;
-    const maxSize = 5;
+    <script>
+      const numStars = 1000;
+      const maxSize = 5;
 
-    for (let i = 0; i < numStars; i++) {
-      const star = document.createElement('div');
-      star.classList.add('star');
+      for (let i = 0; i < numStars; i++) {
+        const star = document.createElement('div');
+        star.classList.add('star');
 
-      const size = Math.random() * maxSize;
-      const x = Math.random() * window.innerWidth;
-      const y = Math.random() * (window.innerHeight + 1000);
+        const size = Math.random() * maxSize;
+        const x = Math.random() * window.innerWidth;
+        const y = Math.random() * (window.innerHeight + 1000);
 
-      star.style.width = size + 'px';
-      star.style.height = size + 'px';
-      star.style.left = x + 'px';
-      star.style.top = y + 'px';
+        star.style.width = size + 'px';
+        star.style.height = size + 'px';
+        star.style.left = x + 'px';
+        star.style.top = y + 'px';
 
-      document.body.appendChild(star);
-    }
-  </script>
-</body>
+        document.body.appendChild(star);
+      }
+    </script>
+  </body>
 </html>
 
