@@ -1,0 +1,99 @@
+.about-page {
+    padding-top: 800px;
+    padding-bottom: 80px;
+    width: 50%
+  }
+  
+  .about-page h2 {
+    margin-bottom: 80px;
+  }
+  
+  .about-page__content {
+    max-width: 1300px;
+    width:100%;
+    margin: 0 auto 80px auto;
+    display: flex;
+  }
+  
+  .about-page__content p {
+    font-size: 26px;
+    color: var(--yellow-color);
+  }
+  
+  .about-page__content p:first-child {
+    margin-top: 100px;
+
+  }
+  
+  .about-page__content p:last-child {
+    margin-bottom: 100px;
+  }
+  
+  .about-page__content > div:first-child {
+    margin-right: 200px;
+
+  }
+
+  
+  .about-page__content img {
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-right: 50px;
+  }
+
+  .timeline {
+    border-left: 5px solid #D7BE7C;
+    height: 630px;
+    position: absolute;
+    left: 50%;
+  }
+
+
+  .last-timeline {
+    border-left: 5px solid #D7BE7C;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+
+  }
+  
+  .dot {
+    height: 27px;
+    width: 27px;
+    background-color: #D7BE7C;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 49.5%;
+    margin-top: 100px;
+  }
+/* Responsive styles */
+@media only screen and (min-width: 1000px) {
+
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .col-1 article {
+        flex-direction: column;
+    }
+
+    .about-info p,
+    .about-info-requirement,
+    .about-info ul {
+        font-size: 20px;
+    }
+
+    .about-info img {
+        width: 50%;
+        align-self: center;
+    }
+}
