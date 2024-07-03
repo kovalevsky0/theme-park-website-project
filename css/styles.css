@@ -18,6 +18,7 @@
 @import "footer.css";
 @import "footer-menu.css";
 @import "attractions-page.css"; 
+@import "about-page.css";
 
 body {
     font-family: 'Geo', sans-serif;
