@@ -2,6 +2,15 @@
   margin: 0 40px 45px 40px;
 }
 
+.desc ul{
+  padding-top: 20px;
+  margin: 0 40px 45px 40px;
+  color: var(--orange-color);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
 .ticket img {
   max-width: 300px;
   width: 100%;
