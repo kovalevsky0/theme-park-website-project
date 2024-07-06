@@ -1,0 +1,8 @@
+.values{
+    padding-bottom: 3em;
+}
+.values ul li{
+    margin-left: 20%;
+    margin-right: 20%;
+    color:  #f4ddb4;
+}

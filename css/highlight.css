@@ -21,6 +21,11 @@
   width: 190px 
 }
 
+.highlight__rocket-fire img{
+  max-width: 12em;
+  rotate: 180deg;
+}
+
 .highlight__line {
   width: 78%;
   background-color: #D7BE7C;

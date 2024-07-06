@@ -18,7 +18,9 @@
 @import "footer.css";
 @import "footer-menu.css";
 @import "about-page.css";
-@import "attractions-page.css"; 
+@import "attractions-page.css";
+@import "values.css"; 
+@import "timeline.css";
 
 body {
     font-family: 'Geo', sans-serif;
