@@ -1,14 +1,17 @@
 .ticket {
-  margin: 0 40px 45px 40px;
+  margin: 0 4em 5em 4em;  
 }
 
-.desc ul{
+.ticket-desc ul{
   padding-top: 20px;
-  margin: 0 40px 45px 40px;
   color: var(--orange-color);
   font-size: 20px;
   font-weight: bold;
   display: inline-block;
+}
+
+.ticket-desc ul p{
+  margin: 2px;
 }
 
 .ticket img {
