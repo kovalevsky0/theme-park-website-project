@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food & Drinks - Nova Park</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" 
+    type="image/png" 
+    href="./assets/images/favicon1.png">
+</head>
+<body>
+<header class="col-s-1 col-s-12">
+    <div class="container">
+        <div class="topbar">
+        <a class="logo" href="index.html">Nova Park</a>
+        <nav class="topmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="tickets.html">Tickets</a></li>
+                <li><a class="topmenu__active" href="food.html">Food & Drink</a></li>
+            </ul>
+            <a class="topmenu__cart" href="cart.html"><img src="./assets/images/cart.png" alt="cart"></a>
+        </nav>
+        </div>
+    </div>
+</header>
+<main class = "food-section">
+ <section class="col-s-1 col-s-12">
+    <div class="container">
+        <h2 class="text-center"> Food & Drinks</h2>
+        <body>
+            <section class="food-section">
+            <article>
+                <h3 style = "color: rgb(250, 250, 220);" class = "food-section"> Spaceman Meal </h3>
+                <img src="./assets/images/NovaParkBurgerMeal.jpg" alt="Moon Meal">
+                <p>
+                    A spaceman must eat good after a trip to the moon! This deluxe burger meal with 2 sets of fries and 2 drinks (of your choice) available is the most popular meal. 
+                </p>
+                <p style = "color: aliceblue;" >
+                    Ingredients: The juicy patty (of your choice) is cooked to golden brown perfection served with rich cheddar cheese with freshly cut tomatos and lettuce with our famous moon sauce dripped onto the buns of the burger. Our crispy golden fries with slat are served twice as well as 2 drinks of your choice in a medium sized cup.
+                </p>
+                <div>
+                    <ul>
+                        <li><strong>Adult Price: </strong>45$</li>
+                        <li><strong>Kid Price: </strong>30$</li>
+                        <li><strong>Student Price: </strong>40$</li>
+                    </ul>
+                </div>
+            </article>
+        
+    </section>
+             <section class="food-section">
+                <article>
+                    <h3 style = "color: rgb(250, 250, 220);" class = "food-section"> Alien Attacker </h3>
+                    <img src="./assets/images/Alien-slushies-all-color.jpg" alt="Alien Attacker Slushies">
+                    <p>
+                        Our world famous Alien Attacker founded on the planet of Mars itself is a revolutionary shake developed by our very own nova astronauts. The global hit shake has taken the world by storm due to it's incredible taste that is very out of this world! Why not come try it from where it has originated from? (A free alien attacker certificate pin will be given to every person that tries our shake here at Nova Park).
+                    </p>
+                    <p style = "color: aliceblue;" ></p>
+                    <div>
+                        <ul>
+                            <li><strong>Large Cup Price: </strong>40$</li>
+                            <li><strong>Medium Cup Price: </strong>35$</li>
+                            <li><strong>Small Cup Price: </strong>20$</li>
+                        </ul>
+                    </div>
+                </article>
+                <section class="food-section">
+                    <article>
+                        <h4 style = "color: rgb(250, 250, 220);" class = "food-section"> Our Promise </h4>
+                        <p>
+                           At Nova Park we value all culutures and religions! We insure all our chefs are from diversed backgrounds to give you the traditional taste of beloved meals around the world. They are specially trained to insure the food follows your exact values. We are not just a theme park, we are a family! Please speak to the front desk of the ISS stating your dietry values. We understand that the adults might need time to themseleves. You can drop your children off at our alien daycare and visit our special space themed bar which is called 'Bar Bar' it is only 2 minutes away from the daycare. 
+                        </p>
+                        <p style = "color: aliceblue;" ></p>
+                    </article>
+                </main>
+                <footer class="footer">
+                    <div class="container">
+                      <div>
+                        <div class="footer__top">
+                          <a class="logo logo_smaller" href="index.html">Nova Park</a>
+                          <nav class="footer-menu">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="tickets.html">Attractions</a></li>
+                                <li><a class="topmenu__active" href="food.html">Food & Drink</a></li>
+                            </ul>
+                          </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+                <script>
+                    const numStars = 1000;
+                    const maxSize = 5;
+                
+                    for (let i = 0; i < numStars; i++) {
+                      const star = document.createElement('div');
+                      star.classList.add('star');
+                
+                      const size = Math.random() * maxSize;
+                      const x = Math.random() * window.innerWidth;
+                      const y = Math.random() * (window.innerHeight + 1000);
+                
+                      star.style.width = size + 'px';
+                      star.style.height = size + 'px';
+                      star.style.left = x + 'px';
+                      star.style.top = y + 'px';
+                
+                      document.body.appendChild(star);
+                    }
+                  </script>
+            </body>
+            </html>
+            
+
+                    
+                
+            
+ 
+        

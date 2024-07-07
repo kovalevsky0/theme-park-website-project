@@ -28,6 +28,7 @@
 
 .food-block p {
   font-size: 23px;
+  color:brown;
 }
 
 @media (max-width: 1360px) {
