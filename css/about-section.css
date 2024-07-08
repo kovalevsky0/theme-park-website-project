@@ -31,8 +31,14 @@
 
 .about-section__content > div:first-child {
   margin-right: 110px;
+  width: 50%;
+}
+
+.about-section__content > div:last-child {
+  width: 50%;
 }
 
 .about-section__content img {
+  width: 100%;
   border-radius: 25px;
 }
