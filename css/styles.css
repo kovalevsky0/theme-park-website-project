@@ -21,6 +21,7 @@
 @import "attractions-page.css";
 @import "values.css"; 
 @import "timeline.css";
+@import "food-page.css";
 
 body {
     font-family: 'Geo', sans-serif;
